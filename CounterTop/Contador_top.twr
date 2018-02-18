@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr
+Contador_top.pcf -ucf Timer.ucf
+
+Design file:              Contador_top.ncd
+Physical constraint file: Contador_top.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk100MHz
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |    4.943(R)|      SLOW  |   -0.488(R)|      FAST  |clk100MHz_BUFGP   |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock selector
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |    2.547(R)|      SLOW  |   -0.961(R)|      FAST  |almux             |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock selector to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+segmentos<0>|        14.455(R)|      SLOW  |         6.648(R)|      FAST  |almux             |   0.000|
+segmentos<1>|        14.136(R)|      SLOW  |         6.572(R)|      FAST  |almux             |   0.000|
+segmentos<2>|        14.476(R)|      SLOW  |         6.768(R)|      FAST  |almux             |   0.000|
+segmentos<3>|        15.108(R)|      SLOW  |         6.926(R)|      FAST  |almux             |   0.000|
+segmentos<4>|        14.906(R)|      SLOW  |         6.751(R)|      FAST  |almux             |   0.000|
+segmentos<5>|        14.607(R)|      SLOW  |         6.724(R)|      FAST  |almux             |   0.000|
+segmentos<6>|        15.033(R)|      SLOW  |         6.879(R)|      FAST  |almux             |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk100MHz      |    5.090|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock selector
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+selector       |    1.778|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Nov 05 12:56:15 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 169 MB
+
+
+

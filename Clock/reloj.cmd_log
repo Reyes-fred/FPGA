@@ -1,0 +1,228 @@
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-2 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-2 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-2 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-2 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-2 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+vhdtdtfi -lib work siete_segmentos_mux.vhd -lib work siete_segmentos.vhd -lib work clk200Hz.vhd -lib work siete_segmentos_completo.vhd -lib work contador_reloj.vhd -lib work clk1Hz.vhd -lib work reloj.vhd -prj ProyectoFinal -o reloj.spl -module reloj -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 reloj.spl {C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.sym} 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj_preroute.twx reloj_map.ncd -o reloj_preroute.twr reloj.pcf -ucf reloj_basys2.ucf 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc reloj_basys2.ucf -p xc6slx16-csg324-3 "reloj.ngc" reloj.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o reloj_map.ncd reloj.ngd reloj.pcf 
+par -w -intstyle ise -ol high -mt off reloj_map.ncd reloj.ncd reloj.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml reloj.twx reloj.ncd -o reloj.twr reloj.pcf -ucf reloj_basys2.ucf 
+bitgen -intstyle ise -f reloj.ut reloj.ncd 

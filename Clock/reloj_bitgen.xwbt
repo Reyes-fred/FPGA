@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\reloj.ncd
+OUTFILE=C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\reloj.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal
+LICENSE=WebPack
+USER_INFO=210777356_0_0_811

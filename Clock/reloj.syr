@@ -1,0 +1,658 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: reloj.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "reloj.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "reloj"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : reloj
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\siete_segmentos_mux.vhd" into library work
+Parsing entity <siete_segmentos_mux>.
+Parsing architecture <Behavioral> of entity <siete_segmentos_mux>.
+Parsing VHDL file "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\siete_segmentos.vhd" into library work
+Parsing entity <siete_segmentos>.
+Parsing architecture <Behavioral> of entity <siete_segmentos>.
+Parsing VHDL file "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\clk200Hz.vhd" into library work
+Parsing entity <clk200Hz>.
+Parsing architecture <Behavioral> of entity <clk200hz>.
+Parsing VHDL file "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\siete_segmentos_completo.vhd" into library work
+Parsing entity <siete_segmentos_completo>.
+Parsing architecture <Behavioral> of entity <siete_segmentos_completo>.
+Parsing VHDL file "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\contador_reloj.vhd" into library work
+Parsing entity <contador_reloj>.
+Parsing architecture <Behavioral> of entity <contador_reloj>.
+Parsing VHDL file "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\clk1Hz.vhd" into library work
+Parsing entity <clk1Hz>.
+Parsing architecture <Behavioral> of entity <clk1hz>.
+Parsing VHDL file "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\reloj.vhd" into library work
+Parsing entity <reloj>.
+Parsing architecture <Behavioral> of entity <reloj>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <reloj> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <clk1Hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <contador_reloj> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <siete_segmentos_completo> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <clk200Hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <siete_segmentos_mux> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <siete_segmentos> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <reloj>.
+    Related source file is "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\reloj.vhd".
+    Summary:
+	no macro.
+Unit <reloj> synthesized.
+
+Synthesizing Unit <clk1Hz>.
+    Related source file is "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\clk1Hz.vhd".
+    Found 25-bit register for signal <contador>.
+    Found 1-bit register for signal <temporal>.
+    Found 25-bit adder for signal <contador[24]_GND_4_o_add_1_OUT> created at line 27.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <clk1Hz> synthesized.
+
+Synthesizing Unit <contador_reloj>.
+    Related source file is "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\contador_reloj.vhd".
+    Found 4-bit register for signal <hh0>.
+    Found 4-bit register for signal <mm0>.
+    Found 3-bit register for signal <mm1>.
+    Found 3-bit register for signal <hh1>.
+    Found 4-bit adder for signal <mm0[3]_GND_6_o_add_0_OUT> created at line 1241.
+    Found 3-bit adder for signal <mm1[2]_GND_6_o_add_2_OUT> created at line 1241.
+    Found 4-bit adder for signal <hh0[3]_GND_6_o_add_7_OUT> created at line 1241.
+    Found 3-bit adder for signal <hh1[2]_GND_6_o_add_11_OUT> created at line 1241.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  14 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <contador_reloj> synthesized.
+
+Synthesizing Unit <siete_segmentos_completo>.
+    Related source file is "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\siete_segmentos_completo.vhd".
+    Summary:
+	no macro.
+Unit <siete_segmentos_completo> synthesized.
+
+Synthesizing Unit <clk200Hz>.
+    Related source file is "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\clk200Hz.vhd".
+    Found 17-bit register for signal <contador>.
+    Found 1-bit register for signal <temporal>.
+    Found 17-bit adder for signal <contador[16]_GND_8_o_add_1_OUT> created at line 26.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <clk200Hz> synthesized.
+
+Synthesizing Unit <siete_segmentos_mux>.
+    Related source file is "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\siete_segmentos_mux.vhd".
+    Found 4-bit register for signal <MUX>.
+    Found 6-bit register for signal <salida>.
+    Found 3-bit register for signal <estado>.
+    Found finite state machine <FSM_0> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | rst                                            |
+    | Power Up State     | rst                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <siete_segmentos_mux> synthesized.
+
+Synthesizing Unit <siete_segmentos>.
+    Related source file is "C:\Users\Alfredo\Documents\Diseno Logico y Digital\ProyectoFinal\siete_segmentos.vhd".
+    Found 64x8-bit Read Only RAM for signal <salida>
+    Summary:
+	inferred   1 RAM(s).
+Unit <siete_segmentos> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 64x8-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 6
+ 17-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 2
+# Registers                                            : 10
+ 1-bit register                                        : 2
+ 17-bit register                                       : 1
+ 25-bit register                                       : 1
+ 3-bit register                                        : 2
+ 4-bit register                                        : 3
+ 6-bit register                                        : 1
+# Multiplexers                                         : 11
+ 17-bit 2-to-1 multiplexer                             : 1
+ 25-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 3
+ 6-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <clk1Hz>.
+The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
+Unit <clk1Hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clk200Hz>.
+The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
+Unit <clk200Hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <contador_reloj>.
+The following registers are absorbed into counter <mm0>: 1 register on signal <mm0>.
+The following registers are absorbed into counter <mm1>: 1 register on signal <mm1>.
+The following registers are absorbed into counter <hh1>: 1 register on signal <hh1>.
+Unit <contador_reloj> synthesized (advanced).
+
+Synthesizing (advanced) Unit <siete_segmentos>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_salida> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <entrada>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <salida>        |          |
+    -----------------------------------------------------------------------
+Unit <siete_segmentos> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 64x8-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 5
+ 17-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 3-bit up counter                                      : 2
+ 4-bit up counter                                      : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Multiplexers                                         : 6
+ 4-bit 2-to-1 multiplexer                              : 2
+ 6-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <seg_i/mux_i/FSM_0> on signal <estado[1:5]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ rst   | 00001
+ v0    | 00010
+ v1    | 00100
+ v2    | 01000
+ v3    | 10000
+-------------------
+INFO:Xst:2261 - The FF/Latch <estado_FSM_FFd5> in Unit <siete_segmentos_mux> is equivalent to the following 2 FFs/Latches, which will be removed : <salida_4> <salida_5> 
+
+Optimizing unit <reloj> ...
+
+Optimizing unit <siete_segmentos_mux> ...
+
+Optimizing unit <contador_reloj> ...
+INFO:Xst:2261 - The FF/Latch <clk_i/contador_0> in Unit <reloj> is equivalent to the following FF/Latch, which will be removed : <seg_i/clk_i/contador_0> 
+INFO:Xst:2261 - The FF/Latch <clk_i/contador_1> in Unit <reloj> is equivalent to the following FF/Latch, which will be removed : <seg_i/clk_i/contador_1> 
+INFO:Xst:2261 - The FF/Latch <clk_i/contador_2> in Unit <reloj> is equivalent to the following FF/Latch, which will be removed : <seg_i/clk_i/contador_2> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block reloj, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 68
+ Flip-Flops                                            : 68
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : reloj.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 214
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 40
+#      LUT2                        : 27
+#      LUT3                        : 4
+#      LUT4                        : 14
+#      LUT5                        : 4
+#      LUT6                        : 36
+#      MUXCY                       : 40
+#      VCC                         : 1
+#      XORCY                       : 39
+# FlipFlops/Latches                : 68
+#      FDC                         : 52
+#      FDCE                        : 7
+#      FDP                         : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 1
+#      OBUF                        : 12
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              68  out of  18224     0%  
+ Number of Slice LUTs:                  133  out of   9112     1%  
+    Number used as Logic:               133  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    137
+   Number with an unused Flip Flop:      69  out of    137    50%  
+   Number with an unused LUT:             4  out of    137     2%  
+   Number of fully used LUT-FF pairs:    64  out of    137    46%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)            | Load  |
+-----------------------------------+----------------------------------+-------+
+clk                                | BUFGP                            | 41    |
+seg_i/clk_i/temporal               | NONE(seg_i/mux_i/estado_FSM_FFd1)| 13    |
+clk_i/temporal                     | NONE(cnt_i/mm0_3)                | 14    |
+-----------------------------------+----------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.947ns (Maximum Frequency: 253.383MHz)
+   Minimum input arrival time before clock: 3.318ns
+   Maximum output required time after clock: 4.976ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.947ns (frequency: 253.383MHz)
+  Total number of paths / destination ports: 1379 / 41
+-------------------------------------------------------------------------
+Delay:               3.947ns (Levels of Logic = 3)
+  Source:            clk_i/contador_9 (FF)
+  Destination:       clk_i/contador_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clk_i/contador_9 to clk_i/contador_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  clk_i/contador_9 (clk_i/contador_9)
+     LUT6:I0->O            2   0.203   0.845  clk_i/PWR_4_o_contador[24]_equal_1_o<24>4 (clk_i/PWR_4_o_contador[24]_equal_1_o<24>3)
+     LUT6:I3->O           14   0.205   0.958  clk_i/PWR_4_o_contador[24]_equal_1_o<24>5 (clk_i/PWR_4_o_contador[24]_equal_1_o)
+     LUT2:I1->O            1   0.205   0.000  clk_i/Mcount_contador_eqn_01 (clk_i/Mcount_contador_eqn_0)
+     FDC:D                     0.102          clk_i/contador_0
+    ----------------------------------------
+    Total                      3.947ns (1.162ns logic, 2.785ns route)
+                                       (29.4% logic, 70.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'seg_i/clk_i/temporal'
+  Clock period: 2.785ns (frequency: 359.002MHz)
+  Total number of paths / destination ports: 29 / 12
+-------------------------------------------------------------------------
+Delay:               2.785ns (Levels of Logic = 2)
+  Source:            seg_i/mux_i/estado_FSM_FFd3 (FF)
+  Destination:       seg_i/mux_i/salida_2 (FF)
+  Source Clock:      seg_i/clk_i/temporal rising
+  Destination Clock: seg_i/clk_i/temporal rising
+
+  Data Path: seg_i/mux_i/estado_FSM_FFd3 to seg_i/mux_i/salida_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              7   0.447   1.021  seg_i/mux_i/estado_FSM_FFd3 (seg_i/mux_i/estado_FSM_FFd3)
+     LUT4:I0->O            1   0.203   0.808  seg_i/mux_i/Mmux_estado[2]_D0[5]_wide_mux_0_OUT<2>_SW0 (N4)
+     LUT6:I3->O            1   0.205   0.000  seg_i/mux_i/Mmux_estado[2]_D0[5]_wide_mux_0_OUT<2> (seg_i/mux_i/estado[2]_D0[5]_wide_mux_0_OUT<2>)
+     FDP:D                     0.102          seg_i/mux_i/salida_2
+    ----------------------------------------
+    Total                      2.785ns (0.957ns logic, 1.829ns route)
+                                       (34.4% logic, 65.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_i/temporal'
+  Clock period: 3.662ns (frequency: 273.071MHz)
+  Total number of paths / destination ports: 205 / 21
+-------------------------------------------------------------------------
+Delay:               3.662ns (Levels of Logic = 3)
+  Source:            cnt_i/hh1_1 (FF)
+  Destination:       cnt_i/hh1_1 (FF)
+  Source Clock:      clk_i/temporal rising
+  Destination Clock: clk_i/temporal rising
+
+  Data Path: cnt_i/hh1_1 to cnt_i/hh1_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.447   1.028  cnt_i/hh1_1 (cnt_i/hh1_1)
+     LUT6:I1->O            2   0.203   0.721  cnt_i/hh1[2]_mm0[3]_AND_6_o_SW0 (N12)
+     LUT6:I4->O            3   0.203   0.755  cnt_i/_n0072_inv1 (cnt_i/_n0072_inv)
+     LUT4:I2->O            1   0.203   0.000  cnt_i/hh1_1_rstpot (cnt_i/hh1_1_rstpot)
+     FDC:D                     0.102          cnt_i/hh1_1
+    ----------------------------------------
+    Total                      3.662ns (1.158ns logic, 2.504ns route)
+                                       (31.6% logic, 68.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 41 / 41
+-------------------------------------------------------------------------
+Offset:              3.318ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       seg_i/clk_i/contador_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to seg_i/clk_i/contador_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            68   1.222   1.666  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          seg_i/clk_i/contador_3
+    ----------------------------------------
+    Total                      3.318ns (1.652ns logic, 1.666ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'seg_i/clk_i/temporal'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              3.318ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       seg_i/mux_i/estado_FSM_FFd1 (FF)
+  Destination Clock: seg_i/clk_i/temporal rising
+
+  Data Path: reset to seg_i/mux_i/estado_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            68   1.222   1.666  reset_IBUF (reset_IBUF)
+     FDP:PRE                   0.430          seg_i/mux_i/MUX_0
+    ----------------------------------------
+    Total                      3.318ns (1.652ns logic, 1.666ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_i/temporal'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              3.318ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       cnt_i/mm0_3 (FF)
+  Destination Clock: clk_i/temporal rising
+
+  Data Path: reset to cnt_i/mm0_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            68   1.222   1.666  reset_IBUF (reset_IBUF)
+     FDCE:CLR                  0.430          cnt_i/hh0_0
+    ----------------------------------------
+    Total                      3.318ns (1.652ns logic, 1.666ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'seg_i/clk_i/temporal'
+  Total number of paths / destination ports: 46 / 11
+-------------------------------------------------------------------------
+Offset:              4.976ns (Levels of Logic = 2)
+  Source:            seg_i/mux_i/estado_FSM_FFd5 (FF)
+  Destination:       salida<6> (PAD)
+  Source Clock:      seg_i/clk_i/temporal rising
+
+  Data Path: seg_i/mux_i/estado_FSM_FFd5 to salida<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q             19   0.447   1.176  seg_i/mux_i/estado_FSM_FFd5 (seg_i/mux_i/estado_FSM_FFd5)
+     LUT6:I4->O            1   0.203   0.579  seg_i/seg_i/Mram_salida12 (salida_0_OBUF)
+     OBUF:I->O                 2.571          salida_0_OBUF (salida<0>)
+    ----------------------------------------
+    Total                      4.976ns (3.221ns logic, 1.755ns route)
+                                       (64.7% logic, 35.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.947|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_i/temporal
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_i/temporal |    3.662|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock seg_i/clk_i/temporal
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+clk_i/temporal      |    2.785|         |         |         |
+seg_i/clk_i/temporal|    2.785|         |         |         |
+--------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.42 secs
+ 
+--> 
+
+Total memory usage is 252368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

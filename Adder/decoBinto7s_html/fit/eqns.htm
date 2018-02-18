@@ -1,0 +1,339 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "decoBinto7s";
+      var device = "XC2C64A";
+      signals = new Array("Mrom_salida_doA01_SPECSIG","Mrom_salida_doA0_SPECSIG","Mrom_salida_doA13_SPECSIG","Mrom_salida_doA14_SPECSIG","Mrom_salida_doA1_SPECSIG","Mrom_salida_doA51_SPECSIG","Mrom_salida_doA52_SPECSIG","Mrom_salida_doA63_SPECSIG","Mrom_salida_doA64_SPECSIG","Mrom_salida_doA74_SPECSIG","Mrom_salida_doA75_SPECSIG","Mrom_salida_doA76_SPECSIG","Mrom_salida_doA7_SPECSIG","salida0_SPECSIG","salida1_SPECSIG","salida2_SPECSIG","salida310_SPECSIG","salida313_SPECSIG","salida314_SPECSIG","salida31_SPECSIG","salida32_SPECSIG","salida39_SPECSIG","salida3_SPECSIG","salida3_bdd0_SPECSIG","salida410_SPECSIG","salida411_SPECSIG","salida412_SPECSIG","salida41_SPECSIG","salida45_SPECSIG","salida47_SPECSIG","salida4_SPECSIG","salida5_SPECSIG","salida6_SPECSIG","salida7_SPECSIG");
+      sigNegs = new Array("OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF");
+      sigTypes = new Array("","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","");
+
+      
+        specSig["dato0_SPECSIG"]=new Array("dato<0>");
+      
+        specSig["dato2_SPECSIG"]=new Array("dato<2>");
+      
+        specSig["dato1_SPECSIG"]=new Array("dato<1>");
+      
+        specSig["dato3_SPECSIG"]=new Array("dato<3>");
+      
+        specSig["salida3_SPECSIG"]=new Array("salida<3>");
+      
+        specSig["Mrom_salida_doA01_SPECSIG"]=new Array("Mrom_salida_doA<0>1");
+      
+        specSig["Mrom_salida_doA0_SPECSIG"]=new Array("Mrom_salida_doA<0>");
+      
+        specSig["Mrom_salida_doA14_SPECSIG"]=new Array("Mrom_salida_doA<1>4");
+      
+        specSig["Mrom_salida_doA13_SPECSIG"]=new Array("Mrom_salida_doA<1>3");
+      
+        specSig["Mrom_salida_doA1_SPECSIG"]=new Array("Mrom_salida_doA<1>");
+      
+        specSig["Mrom_salida_doA52_SPECSIG"]=new Array("Mrom_salida_doA<5>2");
+      
+        specSig["Mrom_salida_doA51_SPECSIG"]=new Array("Mrom_salida_doA<5>1");
+      
+        specSig["Mrom_salida_doA63_SPECSIG"]=new Array("Mrom_salida_doA<6>3");
+      
+        specSig["Mrom_salida_doA64_SPECSIG"]=new Array("Mrom_salida_doA<6>4");
+      
+        specSig["Mrom_salida_doA76_SPECSIG"]=new Array("Mrom_salida_doA<7>6");
+      
+        specSig["Mrom_salida_doA74_SPECSIG"]=new Array("Mrom_salida_doA<7>4");
+      
+        specSig["Mrom_salida_doA75_SPECSIG"]=new Array("Mrom_salida_doA<7>5");
+      
+        specSig["Mrom_salida_doA7_SPECSIG"]=new Array("Mrom_salida_doA<7>");
+      
+        specSig["salida3_bdd0_SPECSIG"]=new Array("salida<3>_bdd0");
+      
+        specSig["salida310_SPECSIG"]=new Array("salida<3>10");
+      
+        specSig["salida39_SPECSIG"]=new Array("salida<3>9");
+      
+        specSig["salida313_SPECSIG"]=new Array("salida<3>13");
+      
+        specSig["salida32_SPECSIG"]=new Array("salida<3>2");
+      
+        specSig["salida314_SPECSIG"]=new Array("salida<3>14");
+      
+        specSig["salida31_SPECSIG"]=new Array("salida<3>1");
+      
+        specSig["salida47_SPECSIG"]=new Array("salida<4>7");
+      
+        specSig["salida45_SPECSIG"]=new Array("salida<4>5");
+      
+        specSig["salida412_SPECSIG"]=new Array("salida<4>12");
+      
+        specSig["salida411_SPECSIG"]=new Array("salida<4>11");
+      
+        specSig["salida410_SPECSIG"]=new Array("salida<4>10");
+      
+        specSig["salida41_SPECSIG"]=new Array("salida<4>1");
+      
+        specSig["salida6_SPECSIG"]=new Array("salida<6>");
+      
+        specSig["salida2_SPECSIG"]=new Array("salida<2>");
+      
+        specSig["salida5_SPECSIG"]=new Array("salida<5>");
+      
+        specSig["salida0_SPECSIG"]=new Array("salida<0>");
+      
+        specSig["salida1_SPECSIG"]=new Array("salida<1>");
+      
+        specSig["salida4_SPECSIG"]=new Array("salida<4>");
+      
+        specSig["salida7_SPECSIG"]=new Array("salida<7>");
+      
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("Mrom_salida_doA63_SPECSIG");
+          
+            pterms["INPUTPINS_1_4"]=new Array("Mrom_salida_doA64_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("/dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato2_SPECSIG","/dato1_SPECSIG","/dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato3_SPECSIG","salida313_SPECSIG","salida310_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato3_SPECSIG","salida411_SPECSIG","salida410_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("Mrom_salida_doA52_SPECSIG");
+          
+            pterms["INPUTPINS_1_3"]=new Array("Mrom_salida_doA51_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("salida31_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("Mrom_salida_doA1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("Mrom_salida_doA7_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("Mrom_salida_doA75_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/salida39_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/salida45_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/salida47_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato2_SPECSIG","dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato1_SPECSIG","dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato1_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato2_SPECSIG","/dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato2_SPECSIG","/dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato2_SPECSIG","dato0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG","dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("/dato3_SPECSIG","/dato2_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG","salida3_bdd0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("dato3_SPECSIG","salida3_bdd0_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Mrom_salida_doA0_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("Mrom_salida_doA01_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Mrom_salida_doA13_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("Mrom_salida_doA14_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("salida41_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("salida412_SPECSIG");
+          
+            pterms["INPUTPINS_1_1"]=new Array("Mrom_salida_doA74_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("Mrom_salida_doA76_SPECSIG");
+          
+          d2["salida3_SPECSIG"]=new Array("FB4_-1","FB4_-1");
+          
+          d2["salida6_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3","INPUTPINS_1_4");
+          
+          d2["salida310_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+          d2["Mrom_salida_doA14_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["salida314_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["salida412_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["salida2_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+          d2["salida5_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2","INPUTPINS_1_3");
+          
+          d2["salida3_bdd0_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["Mrom_salida_doA0_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["Mrom_salida_doA13_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["Mrom_salida_doA74_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["Mrom_salida_doA76_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida31_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida313_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida39_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida410_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida411_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida45_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida47_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["Mrom_salida_doA01_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["Mrom_salida_doA1_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d1["Mrom_salida_doA51_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["Mrom_salida_doA51_SPECSIG"]=new Array("INPUTPINS_1_2");
+          
+          d2["Mrom_salida_doA52_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["Mrom_salida_doA63_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["Mrom_salida_doA64_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["Mrom_salida_doA7_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["Mrom_salida_doA75_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["salida32_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["salida41_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+          d2["salida0_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida1_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida4_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+          d2["salida7_SPECSIG"]=new Array("INPUTPINS_1_1","INPUTPINS_1_2");
+          
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>

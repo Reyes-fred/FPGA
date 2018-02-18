@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.xst" -ofn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+xst -intstyle ise -ifn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.xst" -ofn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+xst -intstyle ise -ifn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.xst" -ofn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc6slx16-csg324-3 "Contador_top.ngc" Contador_top.ngd  
+xst -intstyle ise -ifn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.xst" -ofn "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timer.ucf -p xc6slx16-csg324-3 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf -ucf timer.ucf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 

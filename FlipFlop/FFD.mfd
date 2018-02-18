@@ -1,0 +1,14 @@
+MDF Database:  version 1.0
+MDF_INFO | FFD | XC2C64A-7-VQ44
+MACROCELL | 2 | 14 | Q_MC
+ATTRIBUTES | 8684290 | 0
+INPUTS | 1 | d
+INPUTP | 1 | 9
+EQ | 2 | 
+   Q := d;	// (1 pt, 1 inp)
+   Q.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+GLOBALS | 1 | 2 | clk
+
+PIN | d | 64 | 16 | LVCMOS18 | 9 | 1 | 2 | 14
+PIN | clk | 4096 | 16 | LVCMOS18 | 19 | 1 | 2 | 14
+PIN | Q | 536871040 | 0 | LVCMOS18 | 55

@@ -1,0 +1,8 @@
+[Inputs]
+reset
+clk100MHz
+selector
+[Outputs]
+=habiDisplay[3:0]=
+=segmentos[7:0]=
+[BiDir]

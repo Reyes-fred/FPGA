@@ -1,0 +1,57 @@
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc Timer.ucf -p xc2c64a-VQ44-7 "Contador_top.ngc" Contador_top.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Contador_top.ngd 
+XSLTProcess Contador_top_build.xml 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf -ucf Timer.ucf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf -ucf Timer.ucf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf -ucf Timer.ucf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf -ucf Timer.ucf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf -ucf Timer.ucf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Timer.ucf -p xc6slx16-csg324-2 "Contador_top.ngc" Contador_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador_top_map.ncd Contador_top.ngd Contador_top.pcf 
+par -w -intstyle ise -ol high -mt off Contador_top_map.ncd Contador_top.ncd Contador_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Contador_top.twx Contador_top.ncd -o Contador_top.twr Contador_top.pcf -ucf Timer.ucf 
+bitgen -intstyle ise -f Contador_top.ut Contador_top.ncd 
+vhdtdtfi -lib work Timer.vhd -lib work Mux2x1.vhd -lib work mef.vhd -lib work decoBinto7s.vhd -lib work Contador_top.vhd -prj contadorTop -o Contador_top.spl -module Contador_top -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Contador_top.spl {C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.sym} 

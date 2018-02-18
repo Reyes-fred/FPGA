@@ -1,0 +1,37 @@
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'decoBinto7s.ise'.
+ERROR:Cpld:832 - 'salida<6>' is assigned to an invalid location ('H12') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<6>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<2>' is assigned to an invalid location ('L13') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<5>' is assigned to an invalid location ('N14') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<5>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<0>' is assigned to an invalid location ('N13') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<1>' is assigned to an invalid location ('M12') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<4>' is assigned to an invalid location ('N11') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<4>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<7>' is assigned to an invalid location ('L14') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<7>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<0>' is assigned to an invalid location ('P11') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<2>' is assigned to an invalid location ('K3') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<1>' is assigned to an invalid location ('L3') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<3>' is assigned to an invalid location ('B4') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<3>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.

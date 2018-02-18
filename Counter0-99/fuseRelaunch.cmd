@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top_isim_beh.exe" -prj "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top_beh.prj" "work.Contador_top" 

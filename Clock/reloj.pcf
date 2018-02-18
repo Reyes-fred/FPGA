@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Nov 26 11:11:01 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "salida<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "salida<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "salida<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "salida<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "salida<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "salida<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "salida<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "salida<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "reset" LOCATE = SITE "D9" LEVEL 1;
+PIN reset_pin<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "MUX<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "MUX<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "MUX<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "MUX<3>" LOCATE = SITE "P17" LEVEL 1;
+SCHEMATIC END;
+

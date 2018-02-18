@@ -1,0 +1,157 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3) <= ((salida(3)2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (salida(3)14));
+</td></tr><tr><td>
+********** UnMapped Logic **********
+</td></tr><tr><td>
+** Outputs **
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(0) <= ((Mrom_salida_doA(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(0)1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(1) <= ((Mrom_salida_doA(1)3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(1)4));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(2) <= ((dato(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dato(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dato(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(4) <= ((salida(4)1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (salida(4)12));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(5) <= ((dato(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(5)2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(5)1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(6) <= ((dato(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dato(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(6)3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(6)4));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(7) <= ((Mrom_salida_doA(7)4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(7)6));
+</td></tr><tr><td>
+** Buried Nodes **
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(0)1 <= (dato(2) AND dato(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(0) <= ((dato(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dato(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(1)4 <= (dato(2) AND NOT dato(1) AND NOT dato(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(1)3 <= ((dato(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(1) <= (dato(1) AND dato(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(5)1 <= dato(1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR dato(0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(5)2 <= (dato(2) AND NOT dato(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(6)4 <= (NOT dato(2) AND dato(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(6)3 <= (dato(2) AND NOT dato(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(7)4 <= ((dato(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(7)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(7)6 <= ((NOT dato(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Mrom_salida_doA(7)5));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(7) <= (dato(3) AND dato(2));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Mrom_salida_doA(7)5 <= (NOT dato(3) AND NOT dato(2));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3)2 <= (dato(3) AND salida(3)_bdd0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3)9 <= ((NOT dato(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dato(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3)13 <= ((dato(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT salida(3)9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3)_bdd0 <= ((NOT dato(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (salida(3)1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3)14 <= (NOT dato(3) AND salida(3)13 AND salida(3)10);
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3)1 <= ((dato(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dato(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(3)10 <= ((NOT dato(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dato(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dato(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(4)7 <= ((NOT dato(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dato(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(4)5 <= ((dato(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dato(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(4)12 <= (NOT dato(3) AND salida(4)11 AND salida(4)10);
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(4)10 <= ((NOT dato(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT salida(4)5));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(4)11 <= ((dato(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT salida(4)7));
+</td></tr><tr><td>
+</td></tr><tr><td>
+salida(4)1 <= (dato(3) AND salida(3)_bdd0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

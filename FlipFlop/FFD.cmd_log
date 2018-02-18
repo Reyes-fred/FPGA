@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/flipflop/FFD.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/flipflop/FFD.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c64a-VQ44-7 "FFD.ngc" FFD.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 FFD.ngd 
+XSLTProcess FFD_build.xml 
+tsim -intstyle ise FFD FFD.nga 
+taengine -intstyle ise -f FFD -w --format html1 -l FFD_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -i FFD 
+ngdbuild -intstyle ise -dd _ngo -uc FFD.ucf -p xc2c64a-VQ44-7 "FFD.ngc" FFD.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 FFD.ngd 
+XSLTProcess FFD_build.xml 
+tsim -intstyle ise FFD FFD.nga 
+hprep6 -s IEEE1149 -i FFD 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/flipflop/FFD.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/flipflop/FFD.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc FFD.ucf -p xc2c64a-VQ44-7 "FFD.ngc" FFD.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 FFD.ngd 
+XSLTProcess FFD_build.xml 
+hprep6 -s IEEE1149 -i FFD 

@@ -1,0 +1,5 @@
+NET "clk" LOC = P43;
+NET "rst" LOC = P42;
+NET "j" LOC =  P40;
+NET "k" LOC =  P38;
+NET "q" LOC =  P22;

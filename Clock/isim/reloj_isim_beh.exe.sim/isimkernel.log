@@ -1,0 +1,29 @@
+Command line:
+   reloj_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53829
+
+Tue Nov 25 15:12:32 2014
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 680.198 Meg
+
+ Total Signals          : 58
+ Total Nets             : 103
+ Total Signal Drivers   : 22
+ Total Blocks           : 9
+ Total Primitive Blocks : 7
+ Total Processes        : 15
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 586
+Total Line Count : 100
+
+ Total Simulation Time: 0.218401 sec
+
+ Current Memory Usage: 680.198 Meg
+
+Tue Nov 25 15:13:00 2014
+

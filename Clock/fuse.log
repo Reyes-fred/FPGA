@@ -1,0 +1,17 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz_isim_beh.exe -prj C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz_beh.prj work.clk1Hz 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity clk1hz
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 VHDL Units
+Built simulation executable C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz_isim_beh.exe
+Fuse Memory Usage: 28072 KB
+Fuse CPU Usage: 826 ms

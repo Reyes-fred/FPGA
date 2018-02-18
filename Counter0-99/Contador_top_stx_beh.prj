@@ -1,0 +1,6 @@
+vhdl isim_temp "timer.vhd"
+vhdl isim_temp "Mux2x1.vhd"
+vhdl isim_temp "mef.vhd"
+vhdl isim_temp "decodificadorBCD.vhd"
+vhdl isim_temp "cotadormef.vhd"
+vhdl isim_temp "Contador_top.vhd"

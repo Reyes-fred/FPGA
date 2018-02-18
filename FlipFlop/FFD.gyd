@@ -1,0 +1,17 @@
+Pin Freeze File:  version P.68d
+
+2C64A44VQ XC2C64A-7-VQ44
+clk S:PIN43
+d S:PIN36
+Q S:PIN18
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+
+
+PARTITION FB3_15 Q
+
+
+

@@ -1,0 +1,5 @@
+work	"Contador_top.vhd"
+work	"Mux2x1.vhd"
+work	"Timer.vhd"
+work	"decoBinto7s.vhd"
+work	"mef.vhd"

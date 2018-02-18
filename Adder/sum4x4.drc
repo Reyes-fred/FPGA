@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Sep 17 11:41:13 2014
+
+drc -z sum4x4.ncd sum4x4.pcf
+
+DRC detected 0 errors and 0 warnings.

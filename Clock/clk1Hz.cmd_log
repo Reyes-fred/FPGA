@@ -1,0 +1,3 @@
+vhdtdtfi -lib work clk1Hz.vhd -prj ProyectoFinal -o clk1Hz.spl -module clk1Hz -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 clk1Hz.spl {C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz.sym} 
+vhdtdtfi -prj ProyectoFinal -o "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz.vhi" -module clk1Hz -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work clk1Hz.vhd 

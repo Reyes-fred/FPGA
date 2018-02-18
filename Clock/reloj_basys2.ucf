@@ -1,0 +1,17 @@
+NET "reset" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk" 	LOC="V10";
+NET "reset" LOC="D9";
+
+NET "salida<0>" LOC= "T17";
+NET "salida<1>" LOC= "T18";
+NET "salida<2>" LOC= "U17";
+NET "salida<3>" LOC= "U18";
+NET "salida<4>" LOC= "M14";
+NET "salida<5>" LOC= "N14";
+NET "salida<6>" LOC= "L14";
+NET "salida<7>" LOC= "M13";
+
+NET "MUX<0>" LOC= "N16";
+NET "MUX<1>" LOC= "N15";
+NET "MUX<2>" LOC= "P18";
+NET "MUX<3>" LOC= "P17";

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=B:\Documentos\BUAP\6. Otonio 2014\1. Disenio Logico y Digital\Practicas de Laboratorio\Practica 5\Proyecto ISE\contador0-99\Contador_top.ncd
+OUTFILE=B:\Documentos\BUAP\6. Otonio 2014\1. Disenio Logico y Digital\Practicas de Laboratorio\Practica 5\Proyecto ISE\contador0-99\Contador_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=B:\Documentos\BUAP\6. Otonio 2014\1. Disenio Logico y Digital\Practicas de Laboratorio\Practica 5\Proyecto ISE\contador0-99
+LICENSE=WebPack
+USER_INFO=210777356_0_0_811

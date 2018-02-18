@@ -1,0 +1,5 @@
+vhdl work "Timer.vhd"
+vhdl work "Mux2x1.vhd"
+vhdl work "mef.vhd"
+vhdl work "decoBinto7s.vhd"
+vhdl work "Contador_top.vhd"

@@ -1,0 +1,7 @@
+vhdl work "siete_segmentos_mux.vhd"
+vhdl work "siete_segmentos.vhd"
+vhdl work "clk200Hz.vhd"
+vhdl work "siete_segmentos_completo.vhd"
+vhdl work "contador_reloj.vhd"
+vhdl work "clk1Hz.vhd"
+vhdl work "reloj.vhd"

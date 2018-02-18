@@ -1,0 +1,10 @@
+EN contador_top NULL "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.vhd" sub00/vhpl08 1415160581
+AR mef behavioral "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/mef.vhd" sub00/vhpl05 1415160578
+AR contador_top behavioral "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Contador_top.vhd" sub00/vhpl09 1415160582
+EN mef NULL "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/mef.vhd" sub00/vhpl04 1415160577
+EN mux2x1 NULL "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Mux2x1.vhd" sub00/vhpl02 1415160575
+AR deco2a7v2 behavioral "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/decoBinto7s.vhd" sub00/vhpl07 1415160580
+AR mux2x1 behavioral "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Mux2x1.vhd" sub00/vhpl03 1415160576
+EN deco2a7v2 NULL "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/decoBinto7s.vhd" sub00/vhpl06 1415160579
+AR timer behavioral "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Timer.vhd" sub00/vhpl01 1415160574
+EN timer NULL "C:/Users/Alfredo/Documents/Diseno Logico y Digital/contadorTop/Timer.vhd" sub00/vhpl00 1415160573

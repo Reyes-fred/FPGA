@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="flipflop.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="FFD.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CHK" xil_pn:name="FFD.chk"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FFD.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CXT" xil_pn:name="FFD.cxt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="FFD.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="FFD.jed"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="FFD.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FFD.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="FFD.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="FFD.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FFD.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="FFD.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FFD.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="FFD.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="FFD.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FFD.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FFD.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FFD.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FFD.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FFD.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FFD.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="FFD.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FFD.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FFD.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FFD_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="FFD_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FFD_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="FFD_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FFD_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FFD_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FFD_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1413393471" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1413393471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413393471" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3903234867976284622" xil_pn:start_ts="1413393471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413393495" xil_pn:in_ck="93224663104" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="-7478140481099413520" xil_pn:start_ts="1413393471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FFD.lso"/>
+      <outfile xil_pn:name="FFD.ngc"/>
+      <outfile xil_pn:name="FFD.ngr"/>
+      <outfile xil_pn:name="FFD.prj"/>
+      <outfile xil_pn:name="FFD.stx"/>
+      <outfile xil_pn:name="FFD.syr"/>
+      <outfile xil_pn:name="FFD.xst"/>
+      <outfile xil_pn:name="FFD_vhdl.prj"/>
+      <outfile xil_pn:name="FFD_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1413395056" xil_pn:in_ck="93224661852" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5221143769895304648" xil_pn:start_ts="1413395055">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1413395068" xil_pn:in_ck="7039640052628608178" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="2260988109850707743" xil_pn:start_ts="1413395056">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FFD.bld"/>
+      <outfile xil_pn:name="FFD.ngd"/>
+      <outfile xil_pn:name="FFD_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1413395081" xil_pn:in_ck="93224654359" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="-8987735265846816371" xil_pn:start_ts="1413395068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FFD.chk"/>
+      <outfile xil_pn:name="FFD.cxt"/>
+      <outfile xil_pn:name="FFD.gyd"/>
+      <outfile xil_pn:name="FFD.log"/>
+      <outfile xil_pn:name="FFD.mfd"/>
+      <outfile xil_pn:name="FFD.nga"/>
+      <outfile xil_pn:name="FFD.pad"/>
+      <outfile xil_pn:name="FFD.pnx"/>
+      <outfile xil_pn:name="FFD.rpt"/>
+      <outfile xil_pn:name="FFD.tim"/>
+      <outfile xil_pn:name="FFD.tspec"/>
+      <outfile xil_pn:name="FFD.vm6"/>
+      <outfile xil_pn:name="FFD.xml"/>
+      <outfile xil_pn:name="FFD_build.xml"/>
+      <outfile xil_pn:name="FFD_html"/>
+      <outfile xil_pn:name="FFD_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1413999901" xil_pn:in_ck="93224663223" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1413999898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FFD.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1413393537" xil_pn:in_ck="93224663223" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1413393533">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

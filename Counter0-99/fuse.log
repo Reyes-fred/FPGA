@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top_isim_beh.exe -prj B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top_beh.prj work.Contador_top 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/timer.vhd" into library work
+Parsing VHDL file "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Mux2x1.vhd" into library work
+Parsing VHDL file "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/mef.vhd" into library work
+Parsing VHDL file "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/decodificadorBCD.vhd" into library work
+Parsing VHDL file "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/cotadormef.vhd" into library work
+Parsing VHDL file "B:/Documentos/BUAP/6. Otonio 2014/1. Disenio Logico y Digital/Practicas de Laboratorio/Practica 5/Proyecto ISE/contador0-99/Contador_top.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 99788 KB
+Fuse CPU Usage: 1343 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity timer [timer_default]
+Compiling architecture behavioral of entity cotadormef [cotadormef_default]
+Compiling architecture behavioral of entity Mux2x1 [mux2x1_default]
+Compiling architecture behavioral of entity decodificadorBCD [decodificadorbcd_default]
+Compiling architecture behavioral of entity mef [mef_default]
+Compiling architecture behavioral of entity contador_top
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:861 - Failed to link the design

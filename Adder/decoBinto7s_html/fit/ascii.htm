@@ -1,0 +1,350 @@
+<html><body>
+<pre>
+ 
+cpldfit:  version P.68d                             Xilinx Inc.
+                                  No Fit Report
+Design Name: decoBinto7s                         Date:  9-24-2014, 12:06PM
+Device Used: XC2C64A-7-VQ44
+Fitting Status: Design Rule Checking Failed
+
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'decoBinto7s.ise'.
+ERROR:Cpld:832 - 'salida<6>' is assigned to an invalid location ('H12') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<6>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<2>' is assigned to an invalid location ('L13') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<5>' is assigned to an invalid location ('N14') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<5>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<0>' is assigned to an invalid location ('N13') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<1>' is assigned to an invalid location ('M12') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<4>' is assigned to an invalid location ('N11') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<4>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'salida<7>' is assigned to an invalid location ('L14') for this
+   device.  This will prevent the design from fitting on the current device.
+   'salida<7>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<0>' is assigned to an invalid location ('P11') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<0>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<2>' is assigned to an invalid location ('K3') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<2>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<1>' is assigned to an invalid location ('L3') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<1>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:832 - 'dato<3>' is assigned to an invalid location ('B4') for this
+   device.  This will prevent the design from fitting on the current device.
+   'dato<3>' must be reassigned before attempting a re-fit.
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+*************************  Mapped Resource Summary  **************************
+
+No logic has been mapped.
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+1  /64  (  2%) 0   /224  (  0%) 2   /160  (  1%) 0  /64  (  0%) 1  /33  (  3%)
+
+** Function Block Resources **
+
+Function Mcells   FB Inps  Pterms   IO       CTC      CTR      CTS      CTE     
+Block    Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot
+FB1       0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
+FB2       0/16      0/40     0/56     0/ 9    0/1      0/1      0/1      0/1
+FB3       0/16      0/40     0/56     0/ 9    0/1      0/1      0/1      0/1
+FB4       1/16      2/40     0/56     1/ 7    0/1      0/1      0/1      0/1
+         -----    -------  -------   -----    ---      ---      ---      ---
+Total     1/64      2/160    0/224    1/33    0/4      0/4      0/4      0/4 
+
+CTC - Control Term Clock
+CTR - Control Term Reset
+CTS - Control Term Set
+CTE - Control Term Output Enable
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+GCK         GSR         GTS         DGE         
+Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+0/3         0/1         0/4         0/0
+
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    4           0    |  I/O              :     1     25
+Output        :    8           1    |  GCK/IO           :     0      3
+Bidirectional :    0           0    |  GTS/IO           :     0      4
+GCK           :    0           0    |  GSR/IO           :     0      1
+GTS           :    0           0    |  
+GSR           :    0           0    |  
+                 ----        ----
+        Total     12           1
+
+End of Mapped Resource Summary
+*************************  Summary of Mapped Logic  ************************
+
+** 1 Outputs **
+
+Signal               Total Total Bank Loc     Pin   Pin       Pin     I/O      
+Name                 Pts   Inps               No.   Type      Use     STD      
+salida<3>            2     2     1    FB4_11  12    I/O       O       LVCMOS18 
+
+Legend:
+Pin No.   - ~     - User Assigned
+I/O Style - OD    - OpenDrain
+          - PU    - Pullup
+          - KPR   - Keeper
+          - S     - SchmittTrigger
+          - DG    - DataGate
+Reg Use   - LATCH - Transparent latch
+          - DFF   - D-flip-flop
+          - DEFF  - D-flip-flop with clock enable
+          - TFF   - T-flip-flop
+          - TDFF  - Dual-edge-triggered T-flip-flop
+          - DDFF  - Dual-edge-triggered flip-flop
+          - DDEFF - Dual-edge-triggered flip-flop with clock enable
+          /S (after any above flop/latch type) indicates initial state is Set
+*************************  Summary of UnMapped Logic  ************************
+
+** 7 Outputs **
+
+Signal               Total Total I/O      User
+Name                 Pts   Inps  STD      Assignment
+salida<0>            2     2     LVCMOS18 N13
+salida<1>            2     2     LVCMOS18 M12
+salida<2>            3     3     LVCMOS18 L13
+salida<4>            2     2     LVCMOS18 N11
+salida<5>            3     3     LVCMOS18 N14
+salida<6>            4     4     LVCMOS18 H12
+salida<7>            2     2     LVCMOS18 L14
+
+** 26 Buried Nodes **
+
+Signal               Total Total User
+Name                 Pts   Inps  Assignment
+Mrom_salida_doA<0>1  1     2     
+Mrom_salida_doA<0>   2     2     
+Mrom_salida_doA<1>4  1     3     
+Mrom_salida_doA<1>3  2     2     
+Mrom_salida_doA<1>   1     2     
+Mrom_salida_doA<5>2  1     2     
+Mrom_salida_doA<5>1  2     2     
+Mrom_salida_doA<6>3  1     2     
+Mrom_salida_doA<6>4  1     2     
+Mrom_salida_doA<7>6  2     2     
+Mrom_salida_doA<7>4  2     2     
+Mrom_salida_doA<7>5  1     2     
+Mrom_salida_doA<7>   1     2     
+salida<3>_bdd0       2     2     
+salida<3>10          3     3     
+salida<3>2           1     2     
+salida<3>9           2     2     
+salida<3>13          2     2     
+salida<3>14          1     3     
+salida<3>1           2     2     
+salida<4>7           2     2     
+salida<4>10          2     2     
+salida<4>12          1     3     
+salida<4>5           2     2     
+salida<4>11          2     2     
+salida<4>1           1     2     
+
+** 4 Inputs **
+
+Signal               I/O      User
+Name                 STD      Assignment
+dato<0>              LVCMOS18 P11
+dato<1>              LVCMOS18 L3
+dato<2>              LVCMOS18 K3
+dato<3>              LVCMOS18 B4
+
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+
+salida(3) <= ((salida(3)2)
+	OR (salida(3)14));
+
+********** UnMapped Logic **********
+
+** Outputs **
+
+
+salida(0) <= ((Mrom_salida_doA(0))
+	OR (Mrom_salida_doA(0)1));
+
+
+salida(1) <= ((Mrom_salida_doA(1)3)
+	OR (Mrom_salida_doA(1)4));
+
+
+salida(2) <= ((dato(3))
+	OR (dato(2))
+	OR (dato(1)));
+
+
+salida(4) <= ((salida(4)1)
+	OR (salida(4)12));
+
+
+salida(5) <= ((dato(3))
+	OR (Mrom_salida_doA(5)2)
+	OR (Mrom_salida_doA(5)1));
+
+
+salida(6) <= ((dato(3))
+	OR (NOT dato(1))
+	OR (Mrom_salida_doA(6)3)
+	OR (Mrom_salida_doA(6)4));
+
+
+salida(7) <= ((Mrom_salida_doA(7)4)
+	OR (Mrom_salida_doA(7)6));
+
+** Buried Nodes **
+
+
+Mrom_salida_doA(0)1 <= (dato(2) AND dato(1));
+
+
+Mrom_salida_doA(0) <= ((dato(3))
+	OR (dato(0)));
+
+
+Mrom_salida_doA(1)4 <= (dato(2) AND NOT dato(1) AND NOT dato(0));
+
+
+Mrom_salida_doA(1)3 <= ((dato(3))
+	OR (Mrom_salida_doA(1)));
+
+
+Mrom_salida_doA(1) <= (dato(1) AND dato(0));
+
+
+Mrom_salida_doA(5)1 <= dato(1)
+	XOR dato(0);
+
+
+Mrom_salida_doA(5)2 <= (dato(2) AND NOT dato(0));
+
+
+Mrom_salida_doA(6)4 <= (NOT dato(2) AND dato(0));
+
+
+Mrom_salida_doA(6)3 <= (dato(2) AND NOT dato(0));
+
+
+Mrom_salida_doA(7)4 <= ((dato(1))
+	OR (Mrom_salida_doA(7)));
+
+
+Mrom_salida_doA(7)6 <= ((NOT dato(0))
+	OR (Mrom_salida_doA(7)5));
+
+
+Mrom_salida_doA(7) <= (dato(3) AND dato(2));
+
+
+Mrom_salida_doA(7)5 <= (NOT dato(3) AND NOT dato(2));
+
+
+salida(3)2 <= (dato(3) AND salida(3)_bdd0);
+
+
+salida(3)9 <= ((NOT dato(2))
+	OR (NOT dato(1)));
+
+
+salida(3)13 <= ((dato(0))
+	OR (NOT salida(3)9));
+
+
+salida(3)_bdd0 <= ((NOT dato(0))
+	OR (salida(3)1));
+
+
+salida(3)14 <= (NOT dato(3) AND salida(3)13 AND salida(3)10);
+
+
+salida(3)1 <= ((dato(2))
+	OR (dato(1)));
+
+
+salida(3)10 <= ((NOT dato(2))
+	OR (NOT dato(1))
+	OR (NOT dato(0)));
+
+
+salida(4)7 <= ((NOT dato(2))
+	OR (NOT dato(1)));
+
+
+salida(4)5 <= ((dato(2))
+	OR (dato(1)));
+
+
+salida(4)12 <= (NOT dato(3) AND salida(4)11 AND salida(4)10);
+
+
+salida(4)10 <= ((NOT dato(0))
+	OR (NOT salida(4)5));
+
+
+salida(4)11 <= ((dato(0))
+	OR (NOT salida(4)7));
+
+
+salida(4)1 <= (dato(3) AND salida(3)_bdd0);
+
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FDDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ FTDCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc2c64a-7-VQ44
+Optimization Method                         : DENSITY
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Set Unused I/O Pin Termination              : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Enable Input Registers                      : ON
+Function Block Fan-in Limit                 : 38
+Use DATA_GATE Attribute                     : ON
+Set Tristate Outputs to Termination Mode    : KEEPER
+Default Voltage Standard for All Outputs    : LVCMOS18
+Input Limit                                 : 32
+Pterm Limit                                 : 28
+</pre>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

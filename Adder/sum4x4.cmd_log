@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "sum4x4.ngc" sum4x4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sum4x4_map.ncd sum4x4.ngd sum4x4.pcf 
+par -w -intstyle ise -ol high -t 1 sum4x4_map.ncd sum4x4.ncd sum4x4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sum4x4.twx sum4x4.ncd -o sum4x4.twr sum4x4.pcf 
+bitgen -intstyle ise -f sum4x4.ut sum4x4.ncd 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.syr" 
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sumador4x4.ucf -p xc3s100e-cp132-4 "sum4x4.ngc" sum4x4.ngd  
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/sumador/sum4x4.syr" 
+XSLTProcess sum4x4_build.xml 
+XSLTProcess sum4x4_build.xml 

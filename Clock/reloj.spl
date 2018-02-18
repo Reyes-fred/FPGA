@@ -1,0 +1,7 @@
+[Inputs]
+clk
+reset
+[Outputs]
+=salida[7:0]=
+=MUX[3:0]=
+[BiDir]

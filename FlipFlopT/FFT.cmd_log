@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/FlipFlopT/FFT.xst" -ofn "C:/Users/Alfredo/Documents/Diseno Logico y Digital/FlipFlopT/FFT.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc FFT.ucf -p xc2c64a-VQ44-7 "FFT.ngc" FFT.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 FFT.ngd 
+XSLTProcess FFT_build.xml 
+tsim -intstyle ise FFT FFT.nga 
+taengine -intstyle ise -f FFT -w --format html1 -l FFT_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -i FFT 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz_isim_beh.exe" -prj "C:/Users/Alfredo/Documents/Diseno Logico y Digital/ProyectoFinal/clk1Hz_beh.prj" "work.clk1Hz" 

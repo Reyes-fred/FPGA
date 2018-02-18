@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Cpld" num="0" delta="new" >Unable to retrieve the path to the iSE Project Repository. Will use the default filename of &apos;<arg fmt="%s" index="1">Contador_top.ise</arg>&apos;.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">segmentos&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">L14</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">segmentos&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">segmentos&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">H12</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">segmentos&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">segmentos&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">N14</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">segmentos&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">segmentos&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">N11</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">segmentos&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">segmentos&lt;5&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">L13</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">segmentos&lt;5&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">segmentos&lt;6&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">M12</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">segmentos&lt;6&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">habiDisplay&lt;2&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">M13</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">habiDisplay&lt;2&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">habiDisplay&lt;0&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">F12</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">habiDisplay&lt;0&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">habiDisplay&lt;3&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">K14</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">habiDisplay&lt;3&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">habiDisplay&lt;1&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">J12</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">habiDisplay&lt;1&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">segmentos&lt;7&gt;</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">N13</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">segmentos&lt;7&gt;</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">reset</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">G12</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">reset</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">clk100MHz</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">B8</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">clk100MHz</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="832" delta="new" >&apos;<arg fmt="%s" index="1">selector</arg>&apos; is assigned to an invalid location (&apos;<arg fmt="%s" index="2">P11</arg>&apos;) for this device.  This will prevent the design from fitting on the current device. &apos;<arg fmt="%s" index="3">selector</arg>&apos; must be reassigned before attempting a re-fit.
+</msg>
+
+<msg type="error" file="Cpld" num="868" delta="new" >Cannot fit the design into any of the specified devices with the selected implementation options.
+</msg>
+
+</messages>
+

@@ -1,0 +1,10 @@
+Command line:
+   contador_reloj_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55799
+
+Tue Nov 25 16:03:26 2014
+
+
+ Elaboration Time: 0.062401 sec

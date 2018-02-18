@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Nov 05 12:55:43 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk100MHz" LOCATE = SITE "V10" LEVEL 1;
+COMP "segmentos<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "segmentos<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "segmentos<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "segmentos<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "segmentos<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "segmentos<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "segmentos<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "habiDisplay<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "segmentos<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "habiDisplay<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "habiDisplay<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "habiDisplay<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "selector" LOCATE = SITE "T10" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+PIN reset_pin<0> = BEL "reset" PINNAME PAD;
+PIN "reset_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+SCHEMATIC END;
+

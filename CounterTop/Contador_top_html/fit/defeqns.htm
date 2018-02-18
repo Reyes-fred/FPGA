@@ -1,0 +1,1008 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(4) <= ((CI4/Mrom_salida_doA(4)3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(4)2));
+</td></tr><tr><td>
+********** UnMapped Logic **********
+</td></tr><tr><td>
+** Outputs **
+</td></tr><tr><td>
+</td></tr><tr><td>
+habiDisplay(2) <= '1';
+</td></tr><tr><td>
+</td></tr><tr><td>
+habiDisplay(0) <= '1';
+</td></tr><tr><td>
+</td></tr><tr><td>
+habiDisplay(3) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+habiDisplay(1) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(0) <= ((CI4/salida(0)7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(0)12));
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(1) <= ((CI4/salida(1)7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(1)13));
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(2) <= ((CI4/salida(2)5)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(2)6));
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(3) <= ((CI4/salida(3)9)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(3)18));
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(5) <= ((CI4/Mrom_salida_doA(5)5)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(5)8));
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(6) <= ((CI4/Mrom_salida_doA(6)6)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(6)8));
+</td></tr><tr><td>
+</td></tr><tr><td>
+segmentos(7) <= '1';
+</td></tr><tr><td>
+** Buried Nodes **
+</td></tr><tr><td>
+FDCPE_CI1/cuenta20: FDCPE port map (CI1/cuenta2(0),CI1/cuenta2_D(0),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(0) <= (NOT CI1/cuenta2(0) AND NOT CI1/cuenta2_cmp_eq0000);
+</td></tr><tr><td>
+FDCPE_CI1/cuenta21: FDCPE port map (CI1/cuenta2(1),CI1/cuenta2_D(1),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(1) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(1));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta22: FDCPE port map (CI1/cuenta2(2),CI1/cuenta2_D(2),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(2) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(2));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta23: FDCPE port map (CI1/cuenta2(3),CI1/cuenta2_D(3),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(3) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(3));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta24: FDCPE port map (CI1/cuenta2(4),CI1/cuenta2_D(4),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(4) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(4));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta25: FDCPE port map (CI1/cuenta2(5),CI1/cuenta2_D(5),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(5) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(5));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta26: FDCPE port map (CI1/cuenta2(6),CI1/cuenta2_D(6),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(6) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(6));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta27: FDCPE port map (CI1/cuenta2(7),CI1/cuenta2_D(7),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(7) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(7));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta28: FDCPE port map (CI1/cuenta2(8),CI1/cuenta2_D(8),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(8) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(8));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta29: FDCPE port map (CI1/cuenta2(9),CI1/cuenta2_D(9),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(9) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(9));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta210: FDCPE port map (CI1/cuenta2(10),CI1/cuenta2_D(10),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(10) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(10));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta211: FDCPE port map (CI1/cuenta2(11),CI1/cuenta2_D(11),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(11) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(11));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta212: FDCPE port map (CI1/cuenta2(12),CI1/cuenta2_D(12),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(12) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(12));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta213: FDCPE port map (CI1/cuenta2(13),CI1/cuenta2_D(13),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(13) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(13));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta214: FDCPE port map (CI1/cuenta2(14),CI1/cuenta2_D(14),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(14) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(14));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta215: FDCPE port map (CI1/cuenta2(15),CI1/cuenta2_D(15),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(15) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(15));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta216: FDCPE port map (CI1/cuenta2(16),CI1/cuenta2_D(16),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(16) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(16));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta217: FDCPE port map (CI1/cuenta2(17),CI1/cuenta2_D(17),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(17) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(17));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta218: FDCPE port map (CI1/cuenta2(18),CI1/cuenta2_D(18),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(18) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(18));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta219: FDCPE port map (CI1/cuenta2(19),CI1/cuenta2_D(19),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(19) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(19));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta220: FDCPE port map (CI1/cuenta2(20),CI1/cuenta2_D(20),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(20) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(20));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta221: FDCPE port map (CI1/cuenta2(21),CI1/cuenta2_D(21),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(21) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(21));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta222: FDCPE port map (CI1/cuenta2(22),CI1/cuenta2_D(22),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(22) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(22));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta223: FDCPE port map (CI1/cuenta2(23),CI1/cuenta2_D(23),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(23) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(23));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta224: FDCPE port map (CI1/cuenta2(24),CI1/cuenta2_D(24),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(24) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(24));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta225: FDCPE port map (CI1/cuenta2(25),CI1/cuenta2_D(25),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(25) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(25));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta226: FDCPE port map (CI1/cuenta2(26),CI1/cuenta2_D(26),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(26) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(26));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta227: FDCPE port map (CI1/cuenta2(27),CI1/cuenta2_D(27),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(27) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(27));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta228: FDCPE port map (CI1/cuenta2(28),CI1/cuenta2_D(28),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(28) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(28));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta229: FDCPE port map (CI1/cuenta2(29),CI1/cuenta2_D(29),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(29) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(29));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta230: FDCPE port map (CI1/cuenta2(30),CI1/cuenta2_D(30),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(30) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(30));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta231: FDCPE port map (CI1/cuenta2(31),CI1/cuenta2_D(31),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta2_D(31) <= (NOT CI1/cuenta2_cmp_eq0000 AND CI1/cuenta2__add0000(31));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0000 <= (CI1/cuenta2(0) AND CI1/cuenta2(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0001 <= (CI1/cuenta2(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0000);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0002 <= (CI1/cuenta2(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0001);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0003 <= (CI1/cuenta2(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0002);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0004 <= (CI1/cuenta2(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0003);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0005 <= (CI1/cuenta2(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0004);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0006 <= (CI1/cuenta2(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0005);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0007 <= (CI1/cuenta2(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0006);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0008 <= (CI1/cuenta2(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0007);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0009 <= (CI1/cuenta2(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0008);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0010 <= (CI1/cuenta2(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0009);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0011 <= (CI1/cuenta2(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0010);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0012 <= (CI1/cuenta2(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0011);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0013 <= (CI1/cuenta2(14) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0012);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0014 <= (CI1/cuenta2(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0013);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0015 <= (CI1/cuenta2(16) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0014);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0016 <= (CI1/cuenta2(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0015);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0017 <= (CI1/cuenta2(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0016);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0018 <= (CI1/cuenta2(19) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0017);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0019 <= (CI1/cuenta2(20) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0018);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0020 <= (CI1/cuenta2(21) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0019);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0021 <= (CI1/cuenta2(22) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0020);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0022 <= (CI1/cuenta2(23) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0021);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0023 <= (CI1/cuenta2(24) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0022);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0024 <= (CI1/cuenta2(25) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0023);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0025 <= (CI1/cuenta2(26) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0024);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0026 <= (CI1/cuenta2(27) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0025);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0027 <= (CI1/cuenta2(28) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0026);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0028 <= (CI1/cuenta2(29) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0027);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_Madd__add0000__and0029 <= (CI1/cuenta2(30) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_Madd__add0000__and0028);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(1) <= CI1/cuenta2(1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2(0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(2) <= CI1/cuenta2(2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0000;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(3) <= CI1/cuenta2(3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0001;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(4) <= CI1/cuenta2(4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0002;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(5) <= CI1/cuenta2(5)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0003;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(6) <= CI1/cuenta2(6)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0004;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(7) <= CI1/cuenta2(7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0005;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(8) <= CI1/cuenta2(8)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0006;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(9) <= CI1/cuenta2(9)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0007;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(10) <= CI1/cuenta2(10)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0008;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(11) <= CI1/cuenta2(11)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0009;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(12) <= CI1/cuenta2(12)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0010;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(13) <= CI1/cuenta2(13)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0011;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(14) <= CI1/cuenta2(14)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0012;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(15) <= CI1/cuenta2(15)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0013;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(16) <= CI1/cuenta2(16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0014;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(17) <= CI1/cuenta2(17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0015;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(18) <= CI1/cuenta2(18)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0016;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(19) <= CI1/cuenta2(19)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0017;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(20) <= CI1/cuenta2(20)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0018;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(21) <= CI1/cuenta2(21)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0019;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(22) <= CI1/cuenta2(22)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0020;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(23) <= CI1/cuenta2(23)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0021;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(24) <= CI1/cuenta2(24)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0022;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(25) <= CI1/cuenta2(25)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0023;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(26) <= CI1/cuenta2(26)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0024;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(27) <= CI1/cuenta2(27)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0025;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(28) <= CI1/cuenta2(28)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0026;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(29) <= CI1/cuenta2(29)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0027;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(30) <= CI1/cuenta2(30)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0028;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2__add0000(31) <= CI1/cuenta2(31)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta2_Madd__add0000__and0029;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_cmp_eq0000 <= (CI1/cuenta2_cmp_eq00001 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_cmp_eq000026 AND CI1/cuenta2_cmp_eq000027 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_cmp_eq000028);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_cmp_eq00001 <= (CI1/cuenta2(12) AND CI1/cuenta2(16) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2(17) AND CI1/cuenta2(20) AND CI1/cuenta2(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2(6) AND CI1/cuenta2(7) AND CI1/cuenta2(9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_cmp_eq000026 <= (NOT CI1/cuenta2(0) AND NOT CI1/cuenta2(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta2(10) AND NOT CI1/cuenta2(11) AND NOT CI1/cuenta2(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta2(3) AND NOT CI1/cuenta2(5) AND NOT CI1/cuenta2(8));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_cmp_eq000027 <= (NOT CI1/cuenta2(13) AND NOT CI1/cuenta2(14) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta2(15) AND NOT CI1/cuenta2(18) AND NOT CI1/cuenta2(19) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta2(21) AND NOT CI1/cuenta2(22) AND NOT CI1/cuenta2(23));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta2_cmp_eq000028 <= (NOT CI1/cuenta2(24) AND NOT CI1/cuenta2(25) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta2(26) AND NOT CI1/cuenta2(27) AND NOT CI1/cuenta2(28) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta2(29) AND NOT CI1/cuenta2(30) AND NOT CI1/cuenta2(31));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta0: FDCPE port map (CI1/cuenta(0),CI1/cuenta_D(0),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(0) <= (NOT CI1/cuenta(0) AND NOT CI1/cuenta_cmp_eq0000);
+</td></tr><tr><td>
+FDCPE_CI1/cuenta1: FDCPE port map (CI1/cuenta(1),CI1/cuenta_D(1),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(1) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(1));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta2: FDCPE port map (CI1/cuenta(2),CI1/cuenta_D(2),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(2) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(2));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta3: FDCPE port map (CI1/cuenta(3),CI1/cuenta_D(3),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(3) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(3));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta4: FDCPE port map (CI1/cuenta(4),CI1/cuenta_D(4),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(4) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(4));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta5: FDCPE port map (CI1/cuenta(5),CI1/cuenta_D(5),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(5) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(5));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta6: FDCPE port map (CI1/cuenta(6),CI1/cuenta_D(6),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(6) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(6));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta7: FDCPE port map (CI1/cuenta(7),CI1/cuenta_D(7),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(7) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(7));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta8: FDCPE port map (CI1/cuenta(8),CI1/cuenta_D(8),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(8) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(8));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta9: FDCPE port map (CI1/cuenta(9),CI1/cuenta_D(9),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(9) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(9));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta10: FDCPE port map (CI1/cuenta(10),CI1/cuenta_D(10),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(10) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(10));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta11: FDCPE port map (CI1/cuenta(11),CI1/cuenta_D(11),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(11) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(11));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta12: FDCPE port map (CI1/cuenta(12),CI1/cuenta_D(12),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(12) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(12));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta13: FDCPE port map (CI1/cuenta(13),CI1/cuenta_D(13),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(13) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(13));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta14: FDCPE port map (CI1/cuenta(14),CI1/cuenta_D(14),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(14) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(14));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta15: FDCPE port map (CI1/cuenta(15),CI1/cuenta_D(15),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(15) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(15));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta16: FDCPE port map (CI1/cuenta(16),CI1/cuenta_D(16),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(16) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(16));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta17: FDCPE port map (CI1/cuenta(17),CI1/cuenta_D(17),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(17) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(17));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta18: FDCPE port map (CI1/cuenta(18),CI1/cuenta_D(18),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(18) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(18));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta19: FDCPE port map (CI1/cuenta(19),CI1/cuenta_D(19),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(19) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(19));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta20: FDCPE port map (CI1/cuenta(20),CI1/cuenta_D(20),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(20) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(20));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta21: FDCPE port map (CI1/cuenta(21),CI1/cuenta_D(21),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(21) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(21));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta22: FDCPE port map (CI1/cuenta(22),CI1/cuenta_D(22),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(22) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(22));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta23: FDCPE port map (CI1/cuenta(23),CI1/cuenta_D(23),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(23) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(23));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta24: FDCPE port map (CI1/cuenta(24),CI1/cuenta_D(24),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(24) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(24));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta25: FDCPE port map (CI1/cuenta(25),CI1/cuenta_D(25),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(25) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(25));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta26: FDCPE port map (CI1/cuenta(26),CI1/cuenta_D(26),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(26) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(26));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta27: FDCPE port map (CI1/cuenta(27),CI1/cuenta_D(27),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(27) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(27));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta28: FDCPE port map (CI1/cuenta(28),CI1/cuenta_D(28),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(28) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(28));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta29: FDCPE port map (CI1/cuenta(29),CI1/cuenta_D(29),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(29) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(29));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta30: FDCPE port map (CI1/cuenta(30),CI1/cuenta_D(30),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(30) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(30));
+</td></tr><tr><td>
+FDCPE_CI1/cuenta31: FDCPE port map (CI1/cuenta(31),CI1/cuenta_D(31),clk100MHz,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/cuenta_D(31) <= (NOT CI1/cuenta_cmp_eq0000 AND CI1/cuenta__add0000(31));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0000 <= (CI1/cuenta(0) AND CI1/cuenta(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0001 <= (CI1/cuenta(2) AND CI1/cuenta_Madd__add0000__and0000);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0002 <= (CI1/cuenta(3) AND CI1/cuenta_Madd__add0000__and0001);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0003 <= (CI1/cuenta(4) AND CI1/cuenta_Madd__add0000__and0002);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0004 <= (CI1/cuenta(5) AND CI1/cuenta_Madd__add0000__and0003);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0005 <= (CI1/cuenta(6) AND CI1/cuenta_Madd__add0000__and0004);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0006 <= (CI1/cuenta(7) AND CI1/cuenta_Madd__add0000__and0005);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0007 <= (CI1/cuenta(8) AND CI1/cuenta_Madd__add0000__and0006);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0008 <= (CI1/cuenta(9) AND CI1/cuenta_Madd__add0000__and0007);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0009 <= (CI1/cuenta(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0008);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0010 <= (CI1/cuenta(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0009);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0011 <= (CI1/cuenta(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0010);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0012 <= (CI1/cuenta(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0011);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0013 <= (CI1/cuenta(14) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0012);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0014 <= (CI1/cuenta(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0013);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0015 <= (CI1/cuenta(16) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0014);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0016 <= (CI1/cuenta(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0015);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0017 <= (CI1/cuenta(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0016);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0018 <= (CI1/cuenta(19) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0017);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0019 <= (CI1/cuenta(20) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0018);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0020 <= (CI1/cuenta(21) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0019);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0021 <= (CI1/cuenta(22) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0020);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0022 <= (CI1/cuenta(23) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0021);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0023 <= (CI1/cuenta(24) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0022);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0024 <= (CI1/cuenta(25) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0023);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0025 <= (CI1/cuenta(26) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0024);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0026 <= (CI1/cuenta(27) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0025);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0027 <= (CI1/cuenta(28) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0026);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0028 <= (CI1/cuenta(29) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0027);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_Madd__add0000__and0029 <= (CI1/cuenta(30) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_Madd__add0000__and0028);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(1) <= CI1/cuenta(1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta(0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(2) <= CI1/cuenta(2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0000;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(3) <= CI1/cuenta(3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0001;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(4) <= CI1/cuenta(4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0002;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(5) <= CI1/cuenta(5)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0003;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(6) <= CI1/cuenta(6)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0004;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(7) <= CI1/cuenta(7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0005;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(8) <= CI1/cuenta(8)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0006;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(9) <= CI1/cuenta(9)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0007;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(10) <= CI1/cuenta(10)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0008;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(11) <= CI1/cuenta(11)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0009;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(12) <= CI1/cuenta(12)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0010;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(13) <= CI1/cuenta(13)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0011;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(14) <= CI1/cuenta(14)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0012;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(15) <= CI1/cuenta(15)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0013;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(16) <= CI1/cuenta(16)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0014;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(17) <= CI1/cuenta(17)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0015;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(18) <= CI1/cuenta(18)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0016;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(19) <= CI1/cuenta(19)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0017;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(20) <= CI1/cuenta(20)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0018;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(21) <= CI1/cuenta(21)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0019;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(22) <= CI1/cuenta(22)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0020;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(23) <= CI1/cuenta(23)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0021;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(24) <= CI1/cuenta(24)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0022;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(25) <= CI1/cuenta(25)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0023;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(26) <= CI1/cuenta(26)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0024;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(27) <= CI1/cuenta(27)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0025;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(28) <= CI1/cuenta(28)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0026;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(29) <= CI1/cuenta(29)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0027;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(30) <= CI1/cuenta(30)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0028;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta__add0000(31) <= CI1/cuenta(31)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR CI1/cuenta_Madd__add0000__and0029;
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq0000 <= (CI1/cuenta_cmp_eq00001 AND CI1/cuenta_cmp_eq000026 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_cmp_eq000027);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq00001 <= (CI1/cuenta(11) AND CI1/cuenta(12) AND CI1/cuenta(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta(14) AND CI1/cuenta(16) AND CI1/cuenta(18) AND CI1/cuenta(19) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta(6));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq00002 <= (CI1/cuenta(20) AND CI1/cuenta(21) AND CI1/cuenta(22) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta(24));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq000023 <= (NOT CI1/cuenta(0) AND NOT CI1/cuenta(1) AND NOT CI1/cuenta(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta(3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq000024 <= (NOT CI1/cuenta(10) AND NOT CI1/cuenta(15) AND NOT CI1/cuenta(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta(4) AND NOT CI1/cuenta(5) AND NOT CI1/cuenta(7) AND NOT CI1/cuenta(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta(9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq000025 <= (NOT CI1/cuenta(23) AND NOT CI1/cuenta(25) AND NOT CI1/cuenta(26) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta(27) AND NOT CI1/cuenta(28) AND NOT CI1/cuenta(29) AND NOT CI1/cuenta(30) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CI1/cuenta(31));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq000026 <= (CI1/cuenta_cmp_eq00002 AND CI1/cuenta_cmp_eq000023);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI1/cuenta_cmp_eq000027 <= (CI1/cuenta_cmp_eq000024 AND CI1/cuenta_cmp_eq000025);
+</td></tr><tr><td>
+FDCPE_CI1/i_clk: FDCPE port map (CI1/i_clk,CI1/i_clk_D,clk100MHz,'0','0',NOT reset);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/i_clk_D <= (CI1/cuenta_cmp_eq00001 AND CI1/cuenta_cmp_eq000026 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta_cmp_eq000027);
+</td></tr><tr><td>
+FDCPE_CI1/i_clk2: FDCPE port map (CI1/i_clk2,CI1/i_clk2_D,clk100MHz,'0','0',NOT reset);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CI1/i_clk2_D <= (CI1/cuenta2_cmp_eq00001 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_cmp_eq000026 AND CI1/cuenta2_cmp_eq000027 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI1/cuenta2_cmp_eq000028);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI2/mux1 <= (selector AND alclk1Hz);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI2/mux3 <= (NOT selector AND alclk200Hz);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd1-In2 <= (cableQ(2) AND cableQ(1) AND cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd1-In3 <= (cableQ(3) AND NOT cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd2-In3 <= (cableQ(1) AND cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd2-In5 <= ((NOT cableQ(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cableQ(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd2-In6 <= (NOT cableQ(2) AND CI3/presente_FSM_FFd2-In3);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd2-In7 <= (cableQ(2) AND CI3/presente_FSM_FFd2-In5);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd3-In4 <= (cableQ(1) AND NOT cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd3-In5 <= ((NOT cableQ(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cableQ(2)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI3/presente_FSM_FFd3-In6 <= (NOT cableQ(1) AND cableQ(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CI3/presente_FSM_FFd3-In5);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(4)2 <= ((cableQ(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(4)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(4)3 <= (cableQ(2) AND NOT cableQ(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(4) <= (cableQ(3) AND cableQ(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(5)7 <= (NOT cableQ(3) AND NOT cableQ(2) AND cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(5)5 <= ((CI4/Mrom_salida_doA(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(5)1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(5)8 <= ((CI4/Mrom_salida_doA(5)6)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(5)7));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(5)1 <= (cableQ(1) AND cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(5) <= (cableQ(3) AND cableQ(2));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(5)6 <= (NOT cableQ(2) AND cableQ(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(6)2 <= (cableQ(2) AND cableQ(1) AND cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(6)7 <= (NOT cableQ(3) AND NOT cableQ(2) AND NOT cableQ(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(6)1 <= (cableQ(3) AND cableQ(2));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(6)8 <= ((CI4/Mrom_salida_doA(6)2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(6)7));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(6)6 <= ((CI4/Mrom_salida_doA(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/Mrom_salida_doA(6)1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/Mrom_salida_doA(6) <= (cableQ(3) AND cableQ(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(0)1 <= ((cableQ(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cableQ(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(0)12 <= (CI4/salida(0)8 AND NOT CI4/salida(0)10);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(0)4 <= (cableQ(2) AND cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(0)9 <= (NOT cableQ(2) AND NOT cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(0)10 <= ((CI4/salida(0)4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(0)9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(0)7 <= (cableQ(3) AND CI4/salida(0)1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(0)8 <= (NOT cableQ(3) AND NOT cableQ(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(1)8 <= ((NOT cableQ(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cableQ(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(1)9 <= (cableQ(2) AND NOT cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(1)13 <= (NOT cableQ(3) AND CI4/salida(1)12 AND CI4/salida(1)11);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(1)12 <= ((cableQ(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CI4/salida(1)8));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(1)7 <= (cableQ(3) AND CI4/salida(1)1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(1)11 <= ((NOT cableQ(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(1)9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(1)1 <= ((cableQ(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cableQ(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(2)5 <= (cableQ(3) AND CI4/salida(2)1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(2)1 <= ((cableQ(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cableQ(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(2)6 <= (NOT cableQ(3) AND NOT cableQ(2) AND cableQ(1) AND NOT cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)10 <= ((NOT cableQ(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT cableQ(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)13 <= ((CI4/salida(3)5)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(3)11));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)1 <= ((cableQ(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (cableQ(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)17 <= ((CI4/salida(3)14)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI4/salida(3)16));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)9 <= (cableQ(3) AND CI4/salida(3)1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)5 <= (cableQ(2) AND cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)18 <= (NOT cableQ(3) AND CI4/salida(3)17);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)16 <= (NOT cableQ(1) AND NOT CI4/salida(3)13);
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)11 <= (NOT cableQ(2) AND NOT cableQ(0));
+</td></tr><tr><td>
+</td></tr><tr><td>
+CI4/salida(3)14 <= (cableQ(1) AND NOT CI4/salida(3)10);
+</td></tr><tr><td>
+FDCPE_alclk1Hz: FDCPE port map (alclk1Hz,NOT alclk1Hz,CI1/i_clk,reset,'0','1');
+</td></tr><tr><td>
+FDCPE_alclk200Hz: FDCPE port map (alclk200Hz,NOT alclk200Hz,CI1/i_clk2,reset,'0','1');
+</td></tr><tr><td>
+</td></tr><tr><td>
+almux <= ((CI2/mux1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI2/mux3));
+</td></tr><tr><td>
+FDCPE_cableQ0: FDCPE port map (cableQ(0),NOT cableQ(0),almux,reset,'0','1');
+</td></tr><tr><td>
+FDCPE_cableQ1: FDCPE port map (cableQ(1),cableQ_D(1),almux,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cableQ_D(1) <= ((CI3/presente_FSM_FFd3-In4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI3/presente_FSM_FFd3-In6));
+</td></tr><tr><td>
+FDCPE_cableQ2: FDCPE port map (cableQ(2),cableQ_D(2),almux,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cableQ_D(2) <= ((CI3/presente_FSM_FFd2-In7)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI3/presente_FSM_FFd2-In6));
+</td></tr><tr><td>
+FDCPE_cableQ3: FDCPE port map (cableQ(3),cableQ_D(3),almux,reset,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cableQ_D(3) <= ((CI3/presente_FSM_FFd1-In3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CI3/presente_FSM_FFd1-In2));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>
